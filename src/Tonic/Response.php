@@ -64,7 +64,7 @@ class Response
         if (is_int($code)) {
             $this->code = $code;
             $this->body = $body;
-        } elseif ($code && !$body) {
+        } elseif (isset($code) && !isset($body)) {
             $this->code = self::OK;
             $this->body = $code;
         }
