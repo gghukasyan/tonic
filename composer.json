@@ -1,21 +1,17 @@
 {
-    "name": "peej/tonic",
+    "name": "gghukasyan/tonic",
     "description": "The RESTful Web App PHP Micro-Framework",
     "keywords": ["rest", "microframework"],
-    "homepage": "http://peej.github.com/tonic",
+    "homepage": "https://github.com/gghukasyan/tonic",
     "license": "MIT",
     "authors": [
         {
-            "name": "Paul James",
-            "email": "paul@peej.co.uk"
+            "name": "Garegin Ghukasyan",
+            "email": "garegin.ghukasyan@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.0"
-    },
-    "require-dev": {
-        "phpspec/phpspec": "dev-master",
-        "behat/behat": "2.*"
     },
     "suggest": {
         "pimple/pimple": "A simple dependancy injection container to handle your services",
